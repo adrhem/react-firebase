@@ -43,14 +43,23 @@
 - Why Javascript?
 - What is ES6?
 - What's next?
-#### 3.2 Node
+#### 3.2 Syntax
+- Script or OOP?
+- Type Vars
+- Scooping
+- Functions vs Arrow Functions
+- Classes
+- Arrays
+- Objects
+
+#### 3.3 Node
 - What is?
 - NPM
-#### 3.3 React
+#### 3.4 React
 - What is?
 - Why React?
 - create-react-app
-#### 3.4 Links
+#### 3.5 Links
 - [Learning](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
 - [Eloquent Javascript](http://eloquentjavascript.net/)
 - [ES6 Features](http://es6-features.org/#Constants)
