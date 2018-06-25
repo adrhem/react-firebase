@@ -1,6 +1,6 @@
 # React / Firebase
 ## Course content
-### 1 HTML
+## 1 HTML
 #### 1.1 Introduction
 - What is?
 - Tags
@@ -25,7 +25,7 @@
 - [Learning](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [Boilerplate](https://html5boilerplate.com/)
 
-### 2 CSS
+## 2 CSS
 - What is?
 - CSS3
 - What is a css preprocessor?
@@ -36,7 +36,7 @@
 - [SASS Site](https://sass-lang.com/)
 
 
-### 3 Javascript
+## 3 Javascript
 #### 3.1 Introduction
 - What is?
 - Is it ~~Java~~ reference?
@@ -68,7 +68,7 @@
 - [Node.org](https://nodejs.org/en/)
 - [React](https://reactjs.org/)
 - [create-react-app](https://github.com/facebook/create-react-app)
-### 4 Firebase
+## 4 Firebase
 #### 4.1 Introduction
 - What is?
 - Why firebase?
