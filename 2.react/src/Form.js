@@ -44,14 +44,13 @@ class Form extends Component {
   }
 
   handleChange = (event) => {
-    //console.log(event);
     const target = event.target;
     const value = target.value;
     const name = target.name;
 
     switch(name){
       case 'login':
-        if(/\W/g.test(value)){
+        if(/\W+/g.test(value)){
           alert("The login field cannot contains special chars.");
           return;
         }
@@ -73,9 +72,7 @@ class Form extends Component {
   }
 
   submitLogin = (event) => {
-    //alert("Before submiting");
     event.preventDefault();
-    //alert("Canceled");
   }
 }
 
