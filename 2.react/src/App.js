@@ -1,21 +1,42 @@
 import React, { Component } from 'react';
-import logo from './assets/images/logo.svg';
-import './assets/css/App.css';
+import logo from './logo.svg';
+import './App.css';
+import Form from './Form';
 
 class App extends Component {
+
+  constructor(props){
+    super(props);
+    this.countries = [
+      {
+        value: 'MX', 
+        display: 'México'
+      },
+      {
+        value: 'US', 
+        display: 'United States'
+      },
+    ];
+    //alert("Constructor");
+  }
+
   render() {
+    //alert("Render it!");
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <button className="btn btn-primaty">Holi</button>
+        <div>
+          <Form states={this.countries} />
+        </div>
       </div>
     );
+  }
+
+  componentDidMount(){
+    //alert("After Render");
   }
 }
 
