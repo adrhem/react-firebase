@@ -27,7 +27,7 @@ class Form extends Component {
             <select name="country" required >
               <option value="">Select a country</option>
               {
-                this.props.states.map((country, key) => {
+                this.props.countries.map((country, key) => {
                   return(
                     <option key={key+1} value={country.value}>{country.display}</option>
                   )
@@ -44,6 +44,7 @@ class Form extends Component {
   }
 
   handleChange = (event) => {
+
     const target = event.target;
     const value = target.value;
     const name = target.name;
@@ -72,6 +73,7 @@ class Form extends Component {
   }
 
   submitLogin = (event) => {
+    //DO STUFF
     event.preventDefault();
   }
 }
