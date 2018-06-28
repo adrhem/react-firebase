@@ -9,6 +9,7 @@ var config = {
   projectId: "",
   storageBucket: "",
   messagingSenderId: ""
+
 };
 
 firebase.initializeApp(config);
