@@ -1,0 +1,28 @@
+{
+  "name": "firebase-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrhem/react-firebase.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "firestore"
+  ],
+  "author": "adrhem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrhem/react-firebase/issues"
+  },
+  "homepage": "https://github.com/adrhem/react-firebase#readme",
+  "dependencies": {
+    "firebase": "^5.1.0"
+  }
+}
